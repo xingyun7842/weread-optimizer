@@ -1,0 +1,23 @@
+{
+  "skill": "weread-optimizer",
+  "export_date": "2026-10-26",
+  "source_commit": null,
+  "export_method": "clean source snapshot; no private Git history",
+  "public_export_changes": [
+    ".gitignore",
+    "install.ps1",
+    "install.sh",
+    "README.md",
+    "requirements.txt",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "scripts/extract_toc_samples.py",
+    "scripts/weread_optimize.py"
+  ],
+  "excluded": "private vault, business records, chat, credentials, local evidence, caches and source Git history",
+  "public_export_fixes": [
+    "Preserve local HTML images resolved inside the input directory, including standalone image nodes",
+    "Add visible in-book notes when images or rich media cannot be embedded",
+    "Add synthetic regression tests for image ordering, media notes and input directory boundaries"
+  ]
+}
